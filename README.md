@@ -1,8 +1,13 @@
 # unbending
-Python Jupyter notebook for reproducing results in main text and SI
+Python Jupyter notebooks for reproducing results in the main text and the supplementary information.
 
-Main.ipynb is used for reproducing figures/results in the main text
+Main.ipynb is used for reproducing figures/results in the main text.
 
-SI.ipynb is used for reproducing results/figures in the Supplementary Information
+SI.ipynb is used for reproducing results/figures in the supplementary information.
 
-Comment.ipynb is the auxiliary file for both main.ipynb and si.ipynb 
+common.ipynb is the auxiliary file containing shared variables and functions for both Main.ipynb and SI.ipynb. 
+
+To use common.ipynb as a module, declare the following statement at the top of the code:
+
+import import_ipynb
+from common import *
